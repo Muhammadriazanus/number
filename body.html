@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;padding: 0;box-sizing: border-box;
+    }
+    body{
+        background-color: aqua;
+        color: white;
+    }
+    .again{
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+    .again button{
+        height: 50px;
+        width: 100px;
+    }
+    .amount{
+        display: flex;
+        justify-content: center;
+    }
+    .compound{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+    .numeric{
+        margin-top: 35px;
+    }
+
+</style>
+<body>
+    <div class="again">
+        <button>again</button>
+        <p>between 1 ans 20</p>
+    </div>
+    <div style="text-align: center; color: palevioletred; height: 100px;font-size: 100px;">
+        <p>guess the number</p>
+
+    </div>
+    <div class="numeric" style="display: flex; justify-content: center;align-items: center;">
+    <div style="font-size: 100px;  margin: 0 auto; background-color: black; height: 100px;width: 100px;display: flex;justify-content: center; align-items: center;">
+        <p>?</p>
+    </div>
+    </div>
+    <div class="compound">
+    <div class="amount" style="display: flex; flex-direction: column;">
+        <input style="height: 100px; width: 190px;" type="number" class="userinput">
+        <button style="width: 970x; text-align: center; width: 97px;" class="checkbutton" >checkbotton</button>
+    </div>
+    <div>
+        <h3>starting guessing ......</h3>
+        <h3 class="score"> score <span>20</span></h3>
+        <h3 class="highScore"> high score<span>:0</span></h3>
+    </div>
+</div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
